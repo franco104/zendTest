@@ -1,0 +1,28 @@
+{
+    "name": "zendframework/skeleton-application",
+    "description": "Skeleton Application for ZF2",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "framework",
+        "zf2"
+    ],
+    "homepage": "http://framework.zend.com/",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.2.*",
+		"pear-pear2.php.net/PEAR2_Text_Markdown": "*",
+        "pear-pear2/PEAR2_HTTP_Request": "*"
+    },
+	"repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear2.php.net",
+			"type": "pear",
+			"url": "http://pear.phpunit.de"
+        }
+    ],
+	"require-dev": {
+		"pear-pear.phpunit.de/phpcpd": "*",
+		"pear-pear.phpunit.de/phploc": "*"
+	}
+}
