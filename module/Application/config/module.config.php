@@ -18,8 +18,8 @@ return array(
                         /*
                          * changes home page
                          */
-                        //'controller' => 'Application\Controller\Index',
-                        'controller' => 'Album\Controller\Album',
+                        'controller' => 'Application\Controller\Index',
+                        //'controller' => 'Album\Controller\Album',
                         'action'     => 'index',
                     ),
                 ),
