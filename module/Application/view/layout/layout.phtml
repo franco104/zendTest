@@ -1,4 +1,8 @@
 <?php echo $this->doctype(); ?>
+<?php
+    $a = md5('jfranco123$');
+    $b = 1;
+?>
 
 <html lang="en">
     <head>
@@ -40,6 +44,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Home') ?></a></li>
                         <li class="active"><a href="<?php echo $this->url('album') ?>"><?php echo $this->translate('Albums') ?></a></li>
+                        <li class="active"><a href="<?php echo $this->url('login') ?>"><?php echo $this->translate('Sign In') ?></a></li>
                     </ul>
                 </div><!--/.nav-collapse -->
             </div>
